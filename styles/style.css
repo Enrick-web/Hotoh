@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .navbar .container .navbar-brand {
+  text-transform: uppercase;
+}
+
+.container-fluid .navbar .container .navbar-brand img {
+  width: 60px;
+  padding-right: 10px;
+}
+
+.container-fluid .navbar .container .btn {
+  background: #7d5fff !important;
+}
+
+.test,
+.test2 {
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  padding-top: 60px;
+}
+
+.test .borbot,
+.test2 .borbot {
+  padding: 5px 0;
+  border-bottom: 4px solid #fff;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.test .row,
+.test2 .row {
+  margin: 0;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.test .row .text,
+.test2 .row .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 130px 80px;
+}
+
+.test .row .text p,
+.test2 .row .text p {
+  color: #fff;
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.test .row .text .slogan,
+.test2 .row .text .slogan {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.test .row .pix,
+.test2 .row .pix {
+  background: url(../images/Untitled.svg) no-repeat center;
+  background-size: 60%;
+  height: 86vh;
+}
+
+.test .row .pix img,
+.test2 .row .pix img {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pix2 {
+  background: url(../images/Untitled-1.svg) no-repeat center;
+  background-size: 80%;
+  height: 80vh;
+}
+
+.pix3 {
+  background: url(../images/Untitled-2.svg) no-repeat center;
+  background-size: 80%;
+  height: 80vh;
+}
+
+body {
+  background: linear-gradient(100deg, #7d5fff, 40%, #1f1e1e);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div {
+  margin: 0;
+  padding: 0;
+}
+
+body h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body hr {
+  height: 3px;
+  background: linear-gradient(-100deg, #7d5fff, 40%, #e9e4e4);
+  margin: auto;
+  width: 20%;
+}
+
+body footer {
+  background: #272626;
+  padding-top: 50px;
+  color: #fff;
+  height: 450px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
